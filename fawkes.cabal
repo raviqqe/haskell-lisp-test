@@ -1,0 +1,19 @@
+name:                fawkes
+version:             0.0.0.0
+synopsis:            Lisp-like Programming Language
+description:         Purely-functional, dynamic-typing language
+homepage:            https://github.com/raviqqe/fawkes
+license:             PublicDomain
+license-file:        UNLICENSE
+author:              Raven Iqqe
+maintainer:          raviqqe@gmail.com
+category:            Compilers/Interpreters
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version: >= 1.10
+
+executable fawkes
+  main-is: Main.hs
+  build-depends: base, optparse-applicative
+  hs-source-dirs: src
+  default-language: Haskell2010
