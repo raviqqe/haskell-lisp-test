@@ -1,0 +1,6 @@
+.*
+*.hi
+*.o
+Main
+cabal.sandbox.config
+!.gitignore
